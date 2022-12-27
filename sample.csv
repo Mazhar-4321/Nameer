@@ -1,0 +1,24 @@
+  615  awk '{print}' data.csv
+  616  awk '/CAPTAIN/{print}' data.csv
+  617  awk '{print $1,$8}' data.csv
+  618  awk '{print NR}' data.csv
+  619  awk '{print NR}{print}' data.csv
+  620  awk '{print}' data.csv
+  621  awk 'NR==1,NR==4{print}' data.csv
+  622  CLEAR
+  623  awk '{print length($0)}' data.csv
+  624  cat data.csv
+  625  awk '{ if($3 == "CAPTAIN"||$3=="JobTitle") print $0;}' data.csv
+  626  awk '{ if($3 == "CAPTAIN"||$3=="JobTitle") print $1;}' data.csv
+  627  awk '{ if($3 == "CAPTAIN"||$3=="JobTitle") print $3;}' data.csv
+  628  awk '{ if($3 == "CAPTAIN"||$3=="JobTitle") print $0;}' data.csv
+  629  awk '{ if($3 == "CAPTAIN"||$3=="JobTitle") print $2,$3,$7;}' data.csv
+  630  awk '{ if($3 == "CAPTAIN"||$3=="JobTitle") print $0;}' data.csv
+  631  clear
+  632  history | grep awk
+  633  awk '{print NF}' data.csv
+  634  cat data.csv
+  635  clear
+  636  history | grep awk
+  637  history | awk 'NR==615 , NR==636{print $0}'
+  638  history >sample.csv | awk 'NR==615 , NR==636{print $0}'
