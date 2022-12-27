@@ -22,3 +22,42 @@
   636  history | grep awk
   637  history | awk 'NR==615 , NR==636{print $0}'
   638  history >sample.csv | awk 'NR==615 , NR==636{print $0}'
+  190  git status
+  191  git add largestNumber.sh
+  192  git status
+  193  git add .
+  194  git status
+  195  git commit -m "[mazhar] added code for largest NUmber "
+  196  git push origin master
+  197  git pull origin master
+  198  git status
+  199  git add .
+  200  git push origin master
+  207  git status
+  208  git add .
+  209  git commit -m "[mazhar] added code for trailing zeros "
+  210  git push origin master
+  211  git remote -v
+  256  ls -a *.git
+  503  history | grep git | awk '{print NR}'
+  504  history | grep git | awk '{print $1}'
+  505  history | grep git 
+  514  cd gitEmpWage/
+  520  cd gitClone/
+  546  cd gitLocal/
+  647  mkdir nameergithub
+  648  mv sample.csv nameergithub
+  649  cat nameergithub/sample.csv
+  650  cd nameergithub/
+  654  cd nameergithub/
+  655  git init
+  656  git clone https://github.com/Mazhar-4321/Nameer.git
+  664  git status
+  665  git add sample.csv
+  666  git status
+  667  git commit -m "ADDED: sample.csv which contains all awk commands"
+  668  git status
+  669  git push origin master
+  670  git push origin main
+  671  history | grep git
+  672  history | grep git >> sample.csv
